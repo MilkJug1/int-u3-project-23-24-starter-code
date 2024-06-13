@@ -7,9 +7,8 @@
 /*    display:none; */
 /* } */
 
-.option-screen {
-    display: none;
-}
+/* .option-screen { */
+/*     display: none; */
 
 /* Feel free to change any of the styling below!*/
 html,
@@ -18,11 +17,13 @@ body {
     padding: 0;
 }
 
+p {
+    background-color: white;
+}
+
 /* Style the body with a background color or image if desired */
 body {
-    background-image: url('../helldivershome.jpg');
-    background-position: cover;
-    background-size: 100vw;
+    /* background-image: url('../helldivershome.jpg'); */
     font-family: Arial, sans-serif;
     text-align: center;
     background-repeat: no-repeat;
@@ -34,7 +35,12 @@ body {
     background-color: white;
 }
 
-
+.story-image {
+    width: 650px;
+    border: 5px solid black; 
+    padding: 5px;
+    margin: 5px;
+}
 /* Style the title of your story */
 .title {
     font-size: 24px;
@@ -57,6 +63,11 @@ body {
     height: auto;
     margin-bottom: 10px;
 }
+
+.test {
+    display: none;
+}
+
 
 /* Style the story opening message */
 .story-opening h1 {
@@ -87,33 +98,40 @@ button:hover {
 }
 
 /* Style the screens for option one and option two */
-#option-one-screen,
-#option-two-screen,
-#option-one-end,
-#option-two-end {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 10px;
+/* #option-one-screen, */
+/* #option-two-screen, */
+/* #option-one-end, */
+/* #option-two-end { */
+/*     background-color: #fff; */
+/*     border: 1px solid #ccc; */
+/*     padding: 20px; */
+/*     border-radius: 10px; */
+/*     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+/*     margin-bottom: 10px; */
+/* } */
+/**/
+/* /* Style the images in the screens */ */
+/* #option-one-screen img, */
+/* #option-two-screen img, */
+/* #option-one-end img, */
+/* #option-two-end img { */
+/*     max-width: 100%; */
+/*     height: auto; */
+/*     margin-bottom: 10px; */
+/* } */
+
+.story-image {
+    width: 200px;
+    border: 5px solid black; 
+    padding: 5px;
+    margin: 5px;
 }
 
-/* Style the images in the screens */
-#option-one-screen img,
-#option-two-screen img,
-#option-one-end img,
-#option-two-end img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
+/* /* Style the text in the screens */ */
+/* #option-one-screen h1, */
+/* #option-two-screen h1, */
+/* #option-one-end h1, */
+/* #option-two-end h1 { */
+/*     font-size: 20px; */
 
-/* Style the text in the screens */
-#option-one-screen h1,
-#option-two-screen h1,
-#option-one-end h1,
-#option-two-end h1 {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
+
