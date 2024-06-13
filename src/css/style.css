@@ -1,13 +1,11 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
-/* 
 .option-one-screen, 
 .option-two-screen, 
 .option-one-end, 
 .option-two-end  {
    display:none;
 }
-*/
 
 
 /* Feel free to change any of the styling below!*/
