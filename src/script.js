@@ -1,6 +1,6 @@
 // Declare variables below to save the different divs of your story.
 
-
+let screen1 = document.querySelector('option-one-screen')
 
 
 

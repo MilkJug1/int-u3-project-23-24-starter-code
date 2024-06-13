@@ -1,12 +1,15 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
-.option-one-screen, 
-.option-two-screen, 
-.option-one-end, 
-.option-two-end  {
-   display:none;
-}
+/* #option-one-screen,  */
+/* #option-two-screen,  */
+/* #option-one-end,  */
+/* #option-two-end  { */
+/*    display:none; */
+/* } */
 
+.option-screen {
+    display: none;
+}
 
 /* Feel free to change any of the styling below!*/
 html,
@@ -17,11 +20,20 @@ body {
 
 /* Style the body with a background color or image if desired */
 body {
+    background-image: url('../helldivershome.jpg');
+    background-position: cover;
+    background-size: 100vw;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     text-align: center;
+    background-repeat: no-repeat;
+    background-position-x: -1vw;
     padding: 20px;
 }
+
+.intro-text {
+    background-color: white;
+}
+
 
 /* Style the title of your story */
 .title {
@@ -75,10 +87,10 @@ button:hover {
 }
 
 /* Style the screens for option one and option two */
-.option-one-screen,
-.option-two-screen,
-.option-one-end,
-.option-two-end {
+#option-one-screen,
+#option-two-screen,
+#option-one-end,
+#option-two-end {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 20px;
@@ -88,20 +100,20 @@ button:hover {
 }
 
 /* Style the images in the screens */
-.option-one-screen img,
-.option-two-screen img,
-.option-one-end img,
-.option-two-end img {
+#option-one-screen img,
+#option-two-screen img,
+#option-one-end img,
+#option-two-end img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
 
 /* Style the text in the screens */
-.option-one-screen h1,
-.option-two-screen h1,
-.option-one-end h1,
-.option-two-end h1 {
+#option-one-screen h1,
+#option-two-screen h1,
+#option-one-end h1,
+#option-two-end h1 {
     font-size: 20px;
     margin-bottom: 20px;
 }
