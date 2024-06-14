@@ -18,7 +18,11 @@ body {
 }
 
 p {
-    background-color: white;
+    color: BlanchedAlmond;
+}
+
+.warning {
+    display:none;
 }
 
 /* Style the body with a background color or image if desired */
@@ -29,10 +33,11 @@ body {
     background-repeat: no-repeat;
     background-position-x: -1vw;
     padding: 20px;
+    background-color: DimGrey;
 }
 
 .intro-text {
-    background-color: white;
+    color: BlanchedAlmond;
 }
 
 .story-image {
@@ -45,6 +50,7 @@ body {
 .title {
     font-size: 24px;
     font-weight: bold;
+    color: BlanchedAlmond;
     margin-bottom: 20px;
 }
 
