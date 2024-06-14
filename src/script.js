@@ -26,7 +26,7 @@ btn1.addEventListener('click', function() {
     switch (btn1.innerHTML) { // Do one side first, as bad as this maybe, I don't care any more.
         case "Join and Enlist to become a Helldiver": // first ending 
             changeBtnText('Go to Armory', 0);
-            changeBtnText('Go to Misson Control', 1);
+            changeBtnText('Go to Mission Control', 1);
             image.src = "https://imgs.search.brave.com/ujjLyopeYiq4Tss0F7X6vADc0MvV_Iy82OaEpi2UtHY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9mYWtl/aW1nLnBsLzYwMHg0/MDA.jpeg"
             bg.style.background = "" // Change background to ship TODO: Add photo of the ship.
             para.innerHTML = "You arrive on the ship after your training, you own this ship now. What are you going to name it."
@@ -37,7 +37,7 @@ btn1.addEventListener('click', function() {
             changeBtnText("Go Back", 0);
             btn1.addEventListener("click", function() {
                 changeBtnText('Go to Armory', 0)
-                changeBtnText('Go to Misson Control', 1);
+                changeBtnText('Go to Mission Control', 1);
                 image.src = "https://imgs.search.brave.com/ujjLyopeYiq4Tss0F7X6vADc0MvV_Iy82OaEpi2UtHY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9mYWtl/aW1nLnBsLzYwMHg0/MDA.jpeg"
                 para.innerHTML = "You arrive on the ship after your training, you own this ship now. What are you going to name it."
                 btn2.style.display = "inline-block";
@@ -49,7 +49,8 @@ btn1.addEventListener('click', function() {
 });
 
 btn2.addEventListener('click', function() {
-    switch(btn2.innerHTML) {
+    
+    switch(btn2.textContent) {
         case "Refuse and continue your life as a citizen": 
             btn1.style.display = "none";
             btn2.style.display = "none";
@@ -59,8 +60,8 @@ btn2.addEventListener('click', function() {
             break;
         case "Go to Mission Control":
             image.src //NOTE: MAKE SURE TO UPDATE TEH BACKGROUND WITH PHOTO OF MISSION CONTROL
-            changeBtnText("Text", 0);
+            changeBtnText("", 0);
             changeBtnText("Text", 1) ;
-            para.textContent = "Test";
+            para.innerHTML = "You chose to go to the Mission Center, a place where you can choose where you want to spread democracy, upon walking up to it, it shows a hologram of 2 planets. ";
     }
 })
