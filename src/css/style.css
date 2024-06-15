@@ -21,8 +21,17 @@ p {
     color: BlanchedAlmond;
 }
 
+video {
+    display: none;
+
+    width: 650px;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
 .warning {
-    display:none;
+    display: none;
 }
 
 /* Style the body with a background color or image if desired */
@@ -42,10 +51,11 @@ body {
 
 .story-image {
     width: 650px;
-    border: 5px solid black; 
+    border: 5px solid black;
     padding: 5px;
     margin: 5px;
 }
+
 /* Style the title of your story */
 .title {
     font-size: 24px;
@@ -116,7 +126,8 @@ button:hover {
 /*     margin-bottom: 10px; */
 /* } */
 /**/
-/* /* Style the images in the screens */ */
+/* /* Style the images in the screens */
+*/
 /* #option-one-screen img, */
 /* #option-two-screen img, */
 /* #option-one-end img, */
@@ -128,16 +139,15 @@ button:hover {
 
 .story-image {
     width: 200px;
-    border: 5px solid black; 
+    border: 5px solid black;
     padding: 5px;
     margin: 5px;
 }
 
-/* /* Style the text in the screens */ */
+/* /* Style the text in the screens */
+*/
 /* #option-one-screen h1, */
 /* #option-two-screen h1, */
 /* #option-one-end h1, */
 /* #option-two-end h1 { */
 /*     font-size: 20px; */
-
-
